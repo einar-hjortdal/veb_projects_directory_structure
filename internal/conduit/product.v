@@ -13,3 +13,6 @@ pub fn get_products(l int) []Product {
 	return res
 }
 
+pub fn get_product_errors() ! {
+	return record.get_product_error()
+}

@@ -22,4 +22,6 @@ fn main() {
 	}
 	public := json.encode(res)
 	println(public)
+
+	conduit.get_product_errors() or {println(err)}
 }
